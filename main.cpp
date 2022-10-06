@@ -7,7 +7,4 @@ int main()
 {
     List<int> list;
 
-    list.insert(3, 1);
-
-    std::cout << list.getSize() << std::endl;
-}
+    std::cout << list.length() << std::endl;
